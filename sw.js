@@ -1,5 +1,5 @@
-const CACHE = "japanese-daily-dcc440e9398b";
-const FILES = ["./","assets/index-fVeDh_7g.js","assets/index-DUg0rgWP.css","index.html","icon-180.png","icon-192.png","icon-512.png","icon.svg","manifest.webmanifest"];
+const CACHE = "japanese-daily-489f73cd2dc5";
+const FILES = ["./","assets/index-Bzlc3t9N.js","assets/index-BB3ueGdd.css","index.html","icon-180.png","icon-192.png","icon-512.png","icon.svg","manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
