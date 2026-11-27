@@ -1,5 +1,5 @@
-const CACHE = "japanese-daily-489f73cd2dc5";
-const FILES = ["./","assets/index-Bzlc3t9N.js","assets/index-BB3ueGdd.css","index.html","icon-180.png","icon-192.png","icon-512.png","icon.svg","manifest.webmanifest"];
+const CACHE = "japanese-daily-8b5885162919";
+const FILES = ["./","assets/index-DK0iBDUi.js","assets/index-BB3ueGdd.css","index.html","icon-180.png","icon-192.png","icon-512.png","icon.svg","manifest.webmanifest"];
 
 // 브라우저에 잠시 남아 있는 이전 사본이 섞이지 않도록, 저장할 파일은 서버에서 새로 받습니다.
 self.addEventListener("install", (event) => {
